@@ -37,15 +37,11 @@
 <p>Node.js® is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.</p>
 
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>What makes node different than developing with more traditional server side languages?</h3>
+
 
 <p>Node.js is an event-driven, server-side JavaScript environment. Node runs JavaScript using the V8 engine developed by Google for use in their Chrome web browser. Leveraging V8 allows Node to provide a server-side runtime environment that compiles and executes JavaScript at lightning speeds. The major speed increase is due to the fact that V8 compiles JavaScript into native machine code, instead of interpreting it or executing it as bytecode. Node is open source, and cross-platform, running on Mac OSX, Windows, and Linux.
 
 But JavaScript? On the server-side? Why? Though JavaScript has traditionally been relegated to menial tasks in the web browser, it’s actually a fully-functional programming language, capable of anything that more traditional languages like C++. Ruby, or Java, are. Furthermore, JavaScript has the advantage of an excellent event model, ideal for asynchronous programming. JavaScript is also a ubiquitous language, well known by millions of developers. This lowers the learning curve of Node.js, since most devs won’t have to learn a new language to start building Node.js apps.</p>
-
-<h3>
-<a id="rather-drive-stick" class="anchor" href="#rather-drive-stick" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is the concept of non blocking IO?</h3>
 
 <p>All the web requests and server requests call in node.js are of non-blocking I/Os. An web request comes in node.js web server and the web server accepts this request and handle this request to a listener object to process the response. Also this web server will remain ready to accept any new web request. And the previous response handling will remain in a queue for performing the rest of operations. Now the node.js environment takes care of preparing the web response which again can be a database call from the actual application. Also this database query can also consists of callback functions with the response from database as being ready. Those operations are executed in a queue and also called as event driven programming and all of these operations are asynchronous in nature.
 
